@@ -1,6 +1,8 @@
 #Este programa calcula la cantidad de artículos que se deben pedir para reabastecer el inventario de una tienda
 #comparando el stock actual con el stock mínimo requerido.
 
+print("Bienvenido al sistema de reabastecimiento de inventario\n")
+
 #Funcion para pedir la cantidad de cada artículo al usuario, con validación de entrada
 def pedir_cantidad(nombre):
     while True:
